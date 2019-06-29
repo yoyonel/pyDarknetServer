@@ -6,16 +6,16 @@
 from setuptools import setup, find_packages
 
 with open('README.rst') as readme_file:
-    readme = readme_file.read()
+    README = readme_file.read()
 
 with open('HISTORY.rst') as history_file:
-    history = history_file.read()
+    HISTORY = history_file.read()
 
-requirements = []
+REQUIREMENTS = []
 
-setup_requirements = ['pytest-runner', ]
+SETUP_REQUIREMENTS = ['pytest-runner', ]
 
-test_requirements = ['pytest', ]
+TEST_REQUIREMENTS = ['pytest', ]
 
 setup(
     author="Lionel Atty",
@@ -31,16 +31,16 @@ setup(
     ],
     python_requires='>=3.6',
     description="Python Darknet Server",
-    install_requires=requirements,
+    install_requires=REQUIREMENTS,
     license="MIT license",
-    long_description=readme + '\n\n' + history,
+    long_description=README + '\n\n' + HISTORY,
     include_package_data=True,
     keywords='pydarknetserver',
     name='pydarknetserver',
     packages=find_packages(include=['pydarknetserver']),
-    setup_requires=setup_requirements,
+    setup_requires=SETUP_REQUIREMENTS,
     test_suite='tests',
-    tests_require=test_requirements,
+    tests_require=TEST_REQUIREMENTS,
     url='https://github.com/yoyonel/pydarknetserver',
     version='0.2.0',
     zip_safe=False,
