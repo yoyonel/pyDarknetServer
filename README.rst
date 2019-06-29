@@ -13,8 +13,13 @@ pyDarknetServer
         :target: https://pydarknetserver.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
+.. image:: https://pyup.io/repos/github/yoyonel/pyDarknetServer/shield.svg
+     :target: https://pyup.io/repos/github/yoyonel/pyDarknetServer/
+     :alt: Updates
 
-
+.. image:: https://pyup.io/repos/github/yoyonel/pyDarknetServer/python-3-shield.svg
+     :target: https://pyup.io/repos/github/yoyonel/pyDarknetServer/
+     :alt: Python 3
 
 Python Darknet Server
 
