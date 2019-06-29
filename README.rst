@@ -21,6 +21,10 @@ pyDarknetServer
      :target: https://pyup.io/repos/github/yoyonel/pyDarknetServer/
      :alt: Python 3
 
+.. image:: https://coveralls.io/repos/github/yoyonel/pyDarknetServer/badge.svg?branch=develop
+    :target: https://coveralls.io/github/yoyonel/pyDarknetServer?branch=develop
+    :alt: Coverage
+
 Python Darknet Server
 
 
